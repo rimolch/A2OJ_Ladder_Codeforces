@@ -19,6 +19,7 @@ int main(){
 	   else{
           is_ok =1;
 	   }
+	//(c[i])? c[i]--:is_ok =1;
 	}
 	//puts(f?"NO":"YES");
 	if(is_ok) cout<<"NO"<<endl;
