@@ -7,7 +7,7 @@ For beginners, unrated users or users with Codeforces Rating < 1300.
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[Young Physicist](http://codeforces.com/problemset/problem/69/A)|<a href="https://codeforces.com/problemset/problem/327/B">Codeforces</a>|1|
+|<ul><li>- [ ] Done</li></ul>|1|[Young Physicist](http://codeforces.com/problemset/problem/69/A)|<a href="https://codeforces.com/">Codeforces</a>|1|
 |<ul><li>- [ ] Done</li></ul>|2|[Beautiful Matrix](http://codeforces.com/problemset/problem/263/A)|Codeforces|1|
 |<ul><li>- [ ] Done</li></ul>|3|[Queue at the School](http://codeforces.com/problemset/problem/266/B)|Codeforces|1|
 |<ul><li>- [ ] Done</li></ul>|4|[Borze](http://codeforces.com/problemset/problem/32/B)|Codeforces|1|
