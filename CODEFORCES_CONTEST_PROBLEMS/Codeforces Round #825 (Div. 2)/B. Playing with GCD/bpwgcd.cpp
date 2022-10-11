@@ -18,7 +18,7 @@ int main(){
         b[0]=ar[0];
         b[n]=ar[n-1];
         for(int i=1;i<n;i++){
-            b[i]=(ar[i-1]*ar[i])/__gcd(ar[i-1],ar[i]);
+            b[i]=(ar[i-1]*ar[i])/__gcd(ar[i-1],ar[i]);//lcm
         }
         for(int i=0;i<n-1;i++){
             if(__gcd(b[i],b[i+1])!=ar[i]){
