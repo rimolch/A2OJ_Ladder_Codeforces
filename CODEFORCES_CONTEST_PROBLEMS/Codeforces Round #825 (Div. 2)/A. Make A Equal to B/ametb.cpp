@@ -2,7 +2,7 @@
 #define MOD 1e7
 #define ll long long int
 using namespace std;
-
+ 
 int main(){
     ios_base::sync_with_stdio(0);
     cin.tie(0);
@@ -11,23 +11,48 @@ int main(){
     while(t--){
         int n;
         cin>>n;
-        int ar[n];
-        int b[n+1]={0};
-        int flag =1;
-        for(int i=0;i<n;i++)cin>>ar[i];
-        b[0]=ar[0];
-        b[n]=ar[n-1];
-        for(int i=1;i<n;i++){
-            b[i]=(ar[i-1]*ar[i])/__gcd(ar[i-1],ar[i]);
-        }
-        for(int i=0;i<n-1;i++){
-            if(__gcd(b[i],b[i+1])!=ar[i]){
-                flag =0;
-                break;
+        int a[n];
+        int b[n];
+        int a0=0,a1=0,b0=0,b1=0;
+        for(int i=0;i<n;i++){
+            cin>>a[i];
+            if(a[i]==0){
+                a0++;
+            }
+            else{
+                a1++;
             }
         }
-        if(!flag)cout<<"NO"<<endl;
-        else cout<<"YES"<<endl;
+        for(int i=0;i<n;i++){
+            cin>>b[i];
+            if(b[i]==0){
+                b0++;
+            }
+            else{
+                b1++;
+            }
+        }
+        int c=0,mini=0;
+        bool is_ok =0;
+        if(a1==b1 && a0 == b0){
+            for(int i=0;i<n;i++){
+                if(a[i]!=b[i]){
+                    is_ok =1;
+                    break;
+                }
+            }
+            if(is_ok)cout<<"1"<<endl;
+            else cout<<"0"<<endl;
+        }
+        else{
+            for(int i=0;i<n;i++){
+                if(a[i]!=b[i]){
+                    c++;
+                }
+            }
+            mini = min(abs(a1-b1)+1,c);
+            cout<<mini<<endl;
+        }
     }
 	return 0;
 }
