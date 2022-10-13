@@ -3,7 +3,7 @@
 #define ll long long int
 #define endl '\n'
 using namespace std;
-ll n,s,ar[3000018];
+//ll n,s,ar[3000018];
 int main(){
      ios_base::sync_with_stdio(0);
      cin.tie(0);
