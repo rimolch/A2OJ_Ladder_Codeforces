@@ -14,6 +14,7 @@ int main(){
      string l,r;
      l =s.substr(0,n);
      r =s.substr(n);
+     /*here s.substr(0,n) & s.substr(n) mean if we are taking i/p as 2421 it divides into two sub string like 24  21 */
      std::sort(l.begin(),l.end());
      std::sort(r.begin(),r.end());
      int flag=0,ss=0;
