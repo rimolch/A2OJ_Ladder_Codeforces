@@ -3,12 +3,12 @@
 #define ll long long int
 #define endl '\n'
 using namespace std;
-
+ 
 int main(){
      ios_base::sync_with_stdio(0);
      cin.tie(0);
      freopen("input.txt","r",stdin);
-    freopen("output.txt","w",stdout);
+     freopen("output.txt","w",stdout);
      int ar[5005],x,p[300000],q[300000],y=0;
      int n;
      cin>>n;
@@ -21,6 +21,16 @@ int main(){
 			p[y]=ar[x];
 			q[y++]=i;
 			ar[x]=0;
+                               /* for this a[x] set to be 0
+                                  5
+                                  2 2 2 2 2 1 2 2 1 2 
+                                  ans 
+                                   1 2 
+                                   3 4
+                                   5 7
+                                   6 9
+                                   8 10*/
+ 
 		}
      }
      if(y!=n)cout<<-1<<endl;
