@@ -3,6 +3,10 @@
 ``` 
 For beginners, unrated users or users with Codeforces Rating < 1300.
 ```
+<a href="https://codeforces.com/blog/entry/57282">The complete guide for CP tutorial from codeforces users</a>
+
+
+
 ## Difficulty Level: 2
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
