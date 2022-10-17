@@ -13,7 +13,7 @@ int main(){
      }
      for(int i=0;i<3;i++){
         for(int j=0;j<3;j++){
-            if(s[i][j]+s[i][j+1]+s[i+1][j]+s[i+1][j+1]!=162){
+            if(s[i][j]+s[i][j+1]+s[i+1][j]+s[i+1][j+1]!=162){// here the character value of # is 35 & . is 46
                cout<<"YES";
                return 0;
             }
