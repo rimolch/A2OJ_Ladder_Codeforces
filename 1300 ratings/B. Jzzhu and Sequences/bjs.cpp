@@ -184,7 +184,7 @@ int main(){
     //cout<<hex<<n<<endl;//deci_to_hexa
     int x,y,n;
     cin>>x>>y>>n;
-    int ar[6]={x-y,x,y,y-x,-x,-y};
+    int ar[6]={x-y,x,y,y-x,-x,-y};//cause every 6 numbers are the same. It's like {x, y, y - x,  - x,  - y, x - y, x, y, y - x, ...}.
     cout<<(ar[n%6]%mod+mod)%mod<<endl;
     return 0;
 }
