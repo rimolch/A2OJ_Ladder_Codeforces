@@ -166,6 +166,7 @@ int multiply(int x, int res[], int res_size)//this is for factorial
         carry  = prod/10;
     }
 
+
     while (carry)
     {
         res[res_size] = carry%10;
@@ -185,11 +186,13 @@ int main(){
     //cout<<hex<<n<<endl;//deci_to_hexa
     int war,chi;
     cin>>war>>chi;
-    while(chi>=0){
-        for(i=1; chi>=0 && i<=war;i++){
-            chi-=i;
+    chi%=(war*(war+1))/2;
+    for(int i=1;i<=war;i++){
+        if(chi<i){
+            break;
         }
+        chi-=i;
     }
-    cout<<chi+i-1;
+    cout<<chi;
     return 0;
 }
