@@ -2,7 +2,7 @@
 ## Description
  
 ## For beginners, unrated users or users with Codeforces Rating < 1300.
-## plus For users satisfying this condition: 1300 <= Codeforces Rating <= 1399.
+## plus For users satisfying this condition: 1300 <= Codeforces Rating <= 1500.
 
 <a href="https://codeforces.com/blog/entry/57282">The complete guide for CP tutorial from codeforces users</a>
 
